@@ -1,0 +1,23 @@
+// main: ../style.scss
+
+table {
+  border-collapse: collapse;
+
+  td,
+  th {
+    border: solid thin $grey;
+    padding: 10px;
+  }
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}

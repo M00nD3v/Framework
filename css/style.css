@@ -1,4 +1,71 @@
 /* PLUGIN STYLE */
 /* BASE STYLE */
+@font-face {
+	font-family: 'Roboto';
+	src: url("../vendor/fonts/Roboto-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url("../vendor/fonts/Roboto-Italic.ttf") format("truetype");
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url("../vendor/fonts/Roboto-Light.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url("../vendor/fonts/Roboto-LightItalic.ttf") format("truetype");
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url("../vendor/fonts/Roboto-Bold.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url("../vendor/fonts/Roboto-BoldItalic.ttf") format("truetype");
+	font-weight: bold;
+	font-style: italic;
+}
+
+body {
+	font-family: "Roboto", monospace;
+}
+
 /* LAYOUT STYLE */
 /* MODULES STYLE */
+table {
+	border-collapse: collapse;
+}
+
+table td,
+table th {
+	border: solid thin #cccccc;
+	padding: 10px;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
